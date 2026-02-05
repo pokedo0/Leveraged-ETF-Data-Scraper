@@ -1,0 +1,76 @@
+name: Scrape Leveraged ETF Data
+
+on:
+  # 每月第一天 UTC 时间 00:00 运行 (北京时间 08:00)
+  schedule:
+    - cron: "0 0 1 * *"
+
+  # 也可以手动触发
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Run scraper
+        run: |
+          python leveraged_etf_simple_scraper.py
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: leveraged-etf-data-${{ steps.date.outputs.date }}
+          path: |
+            leveraged_etf_data.csv
+            leveraged_etf_data.json
+            leveraged_etf_simple.csv
+          retention-days: 90
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: data-${{ steps.date.outputs.date }}
+          name: ETF Data ${{ steps.date.outputs.date }}
+          body: |
+            ## 杠杆ETF数据更新 - ${{ steps.date.outputs.date }}
+
+            ### 包含文件：
+            - `leveraged_etf_data.csv` - 完整数据（所有字段）
+            - `leveraged_etf_data.json` - JSON格式完整数据
+            - `leveraged_etf_simple.csv` - 简化版（核心字段）
+
+            ### 核心字段：
+            - ticker: ETF代码
+            - name: ETF名称
+            - underlying_asset: 标的资产名称
+            - underlying_ticker: 标的资产代码
+            - leverage: 杠杆倍率
+            - direction: 方向
+          files: |
+            leveraged_etf_data.csv
+            leveraged_etf_data.json
+            leveraged_etf_simple.csv
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
