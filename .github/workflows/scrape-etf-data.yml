@@ -36,41 +36,10 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: leveraged-etf-data-${{ steps.date.outputs.date }}
-          path: |
-            leveraged_etf_data.csv
-            leveraged_etf_data.json
-            leveraged_etf_simple.csv
-          retention-days: 90
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: data-${{ steps.date.outputs.date }}
-          name: ETF Data ${{ steps.date.outputs.date }}
-          body: |
-            ## 杠杆ETF数据更新 - ${{ steps.date.outputs.date }}
-
-            ### 包含文件：
-            - `leveraged_etf_data.csv` - 完整数据（所有字段）
-            - `leveraged_etf_data.json` - JSON格式完整数据
-            - `leveraged_etf_simple.csv` - 简化版（核心字段）
-
-            ### 核心字段：
-            - ticker: ETF代码
-            - name: ETF名称
-            - underlying_asset: 标的资产名称
-            - underlying_ticker: 标的资产代码
-            - leverage: 杠杆倍率
-            - direction: 方向
-          files: |
-            leveraged_etf_data.csv
-            leveraged_etf_data.json
-            leveraged_etf_simple.csv
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push data files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add leveraged_etf_data.csv leveraged_etf_data.json leveraged_etf_simple.csv
+          git diff --staged --quiet || git commit -m "Update ETF data - ${{ steps.date.outputs.date }}"
+          git push
