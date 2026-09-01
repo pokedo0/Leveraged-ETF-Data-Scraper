@@ -9,7 +9,6 @@ AAPE,Leverage Shares 2X Long AAPL Daily ETF,Apple Inc,AAPL,2x,long
 AAPU,Direxion Daily AAPL Bull 2X Shares,Apple Inc,AAPL,2x,long
 AAPW,Roundhill AAPL WeeklyPay ETF,Apple common shares,AAPL,1.2x,long
 AAPX,T-REX 2X Long AAPL Daily Target ETF,Apple Inc,AAPL,2x,long
-ABNG,Leverage Shares 2x Long ABNB Daily ETF,"Airbnb, Inc.",ABNB,2x,long
 ACHX,Corgi ACHR 2x Daily ETF,Archer Aviation,ACHR,2x,long
 ACLZ,Corgi ACLS 2x Daily ETF,Axcelis Technologies,ACLS,2x,long
 ACMM,Corgi ACMR 2x Daily ETF,ACM Research,ACMR,2x,long
@@ -23,6 +22,7 @@ AIBD,Direxion Daily AI and Big Data Bear 2X Shares,Solactive US AI & Big Data In
 AIBU,Direxion Daily AI and Big Data Bull 2X Shares,Solactive US AI & Big Data Index,,2x,long
 AIQD,MicroSectors -3x Short Artificial Intelligence (AI) ETNs,BITA AI Leaders Select NTR US Index,,3x,short
 AIQU,MicroSectors 3x Long Artificial Intelligence (AI) ETNs,BITA AI Leaders Select NTR US Index,,3x,long
+AKAL,T-REX 2X Long AKAM Daily Target ETF,"Akamai Technologies, Inc",AKAM,2x,long
 ALA,Corgi ALAB 2x Daily ETF,"Astera Labs, Inc.",ALAB,2x,long
 ALBG,Leverage Shares 2X Long ALB Daily ETF,Albemarle Corp,ALB,2x,long
 AMA,Defiance Daily Target 2X LONG AMAT ETF,"Applied Materials, Inc.",AMAT,2x,long
@@ -74,9 +74,9 @@ AVGX,Defiance Daily Target 2X Long AVGO ETF,,AVGO,2x,long
 AVL,Dx Daily Avgo Bull 2X Shares,Broadcom Inc.,AVGO,2x,long
 AVS,Dx Daily Avgo Bear 1X Shares,Broadcom Inc.,AVGO,1x,short
 AVXX,Defiance Daily Target 2x Long AVAV ETF,AeroVironment Inc,AVAV,2x,long
-AXPG,Leverage Shares 2X Long AXP Daily ETF,American Express Company,AXP,2x,long
 AXTC,Corgi AXTI 2x Daily ETF,"AXT, Inc",AXTI,2x,long
 AXTL,Leverage Shares 2X Long AXTI Daily ETF,AXT Inc,AXTI,2x,long
+AXTQ,Tradr 2X Short AXTI Daily ETF,"AXT, Inc.",AXTI,2x,short
 AXTU,T-REX 2X Long AXTI Daily Target ETF,AXT Inc,AXTI,2x,long
 AXTX,Tradr 2X Long AXTI Daily ETF,"AXT, Inc",AXTI,2x,long
 AZYY,GRANITESHARES YIELDBOOST AMZN ETF,"Amazon.com, Inc",AMZN,variable,long
@@ -114,6 +114,8 @@ BOIL,ProShares Ultra Bloomberg Natural Gas,Bloomberg Natural Gas Subindex,BCOMNG
 BRKL,Corgi BRKB 2x Daily ETF,Berkshire Hathaway,BRKB,2x,long
 BRKU,Direxion Daily BRKB Bull 2X Shares,Berkshire Hathaway Inc.,,2x,long
 BRKW,Roundhill BRKB Weeklypay ETF,Berkshire Hathaway Inc.,BRK.B,1.2x,long
+BRZD,MicroSectors -3x Short Brazil ETNs,iShares MSCI Brazil ETF,EWZ,3x,short
+BRZL,MicroSectors 3x Long Brazil ETNs,iShares MSCI Brazil ETF,EWZ,3x,long
 BRZU,Direxion Daily MSCI Brazil Bull 3X Shares,MSCI Brazil 25-50,,3x,long
 BRZX,Corgi Brazil 2x Daily ETF,,,2x,long
 BTCL,T-Rex 2x Long Bitcoin Daily Mutual Fund,Bitcoin,BTC,2x,long
@@ -146,10 +148,9 @@ CIFG,Leverage Shares 2X Long CIFR Daily ETF,Cipher Mining Inc,CIFR,2x,long
 CIFU,T-REX 2X Long CIFR Daily Target ETF,Cipher Mining Inc,CIFR,2x,long
 CIR,Corgi CRCL 2x Daily ETF,Circle Internet Group,CRCL,2x,long
 CLSX,Tradr 2X Long CLSK Daily ETF,"CleanSpark, Inc",CLSK,2x,long
-CMGG,Leverage Shares 2X Long CMG Daily ETF,"Chipotle Mexican Grill, Inc.",CMG,2x,long
-CNCG,Leverage Shares 2X Long CNC Daily ETF,Centene Corporation,CNC,2x,long
 COHC,Corgi COHR 2x Daily ETF,Coherent Corp,COHR,2x,long
 COHH,Leverage Shares 2X Long COHR Daily ETF,Coherent Corp.,COHR,2x,long
+COHQ,Tradr 2X Short COHR Daily ETF,Coherent Corp.,COHR,2x,short
 COHX,Tradr 2X Long COHR Daily ETF,Coherent Corp,COHR,2x,long
 COIA,ProShares Ultra COIN,"Coinbase Global, Inc",COIN,2x,long
 COIG,Leverage Shares 2X Long COIN Daily ETF,"Coinbase Global, Inc.",COIN,2x,long
@@ -201,7 +202,6 @@ DIPS,YieldMax Short NVDA Option Income Strategy ETF,NVIDIA Corporation,NVDA,vari
 DJTU,T-REX 2X Long DJT Daily Target ETF,Trump Media & Technology Group Corp.,DJT,2x,long
 DKNX,Defiance Daily Target 2X Long DKNG ETF,,DKNG,2x,long
 DLLL,GraniteShares 2x Long DELL Daily ETF,Dell Technologies Inc.,DELL,2x,long
-DNNG,Leverage Shares 2x Long DNN Daily ETF,Denison Mines CORP,DNN,2x,long
 DOG,ProShares Short Dow30,Dow Jones Industrial Average,INDU,1x,short
 DPST,Direxion Daily Regional Banks Bull 3X Shares,S&P Regional Banks Select Industry,,3x,long
 DRAL,Defiance Daily Target 2X Long DRAM ETF,Roundhill Memory ETF,DRAM,2x,long
@@ -209,6 +209,7 @@ DRIP,Direxion Daily S&P Oil & Gas Exploration & Production Bear 2X Shares,WTI Cr
 DRN,Direxion Daily Real Estate Bull 3X Shares,S&P Real Estate Select Sector,,3x,long
 DRNL,Definance 2X Dly Long Pure Drone and Aerial Automation ETF,BITA Pure Drone and Aerial Automation Index,,2x,long
 DRV,Direxion Daily Real Estate Bear 3X Shares,S&P Real Estate Select Sector,,3x,short
+DSPC,Leverage Shares 1X Short SPCX Daily ETF,SpaceX (Space Exploration Technologies),SPCX,1x,short
 DUG,ProShares UltraShort Energy,S&P Energy Select Sector Index,IXE,2x,short
 DULL,MicroSectors Gold -3X Inverse Leveraged ETN,Gold,XAUUSD,3x,short
 DUOG,Leverage Shares 2X Long DUOL Daily ETF,"Duolingo, Inc",DUOL,2x,long
@@ -227,6 +228,7 @@ EFO,ProShares Ultra MSCI EAFE,MSCI EAFE Index,,2x,long
 EFU,ProShares UltraShort MSCI EAFE,MSCI EAFE Index,,2x,short
 EFZ,ProShares Short MSCI EAFE,MSCI EAFE Index,MXEA,1x,short
 ELIL,Direxion Daily LLY Bull 2X Shares,Eli Lilly and Co.,LLY,2x,long
+ELOL,Leverage Shares 100% TSLA AND 100% SPCX Daily ETF,Tesla and SpaceX,,2x,long
 EMTY,ProShares Decline of the Retail Store ETF,Solactive-ProShares Bricks and Mortar Retail Store Index,,1x,short
 EMXX,Corgi Emerging Markets 2x Daily ETF,,,2x,long
 ENTL,Leverage Shares 2X Long ENTG Daily ETF,"Entegris, Inc",ENTG,2x,long
@@ -259,7 +261,9 @@ FGRU,T-REX 2X Long FIGR Daily Target ETF,Figure Technology Solutions,FIGR,2x,lon
 FIAT,YieldMax Short COIN Option Income Strategy ETF,Coinbase Global Inc,COIN,variable,short
 FIGG,Leverage Shares 2x Long FIG Daily ETF,"Figma, Inc.",FIG,2x,long
 FINY,GraniteShares YieldBOOST Financials ETF,3x Long Financials Daily ETF,,variable,long
+FIXX,Leverage Shares 2X Long FIX Daily ETF,"Comfort Systems USA, Inc.",FIX,2x,long
 FIYY,GraniteShares YieldBOOST 20Y Treasuries ETF,3x Long 20Y+ Treasuries Daily ETF,,variable,long
+FLEL,Leverage Shares 2X Long FLEX Daily ETF,Flex Ltd.,FLEX,2x,long
 FLYD,MicroSectors Travel -3x Inverse Leveraged ETN,MerQube MicroSectors U.S. Travel Index,,3x,short
 FLYT,Tradr 2X Long FLY Daily ETF,"Firefly Aerospace, Inc",FLY,2x,long
 FLYU,MicroSectors Travel 3x Leveraged ETN,MerQube MicroSectors U.S. Travel Index,,3x,
@@ -317,6 +321,8 @@ HOOZ,Defiance Daily Target 2X Short HOOD ETF,Robinhood Markets Inc.,HOOD,2x,shor
 HOYY,GRANITESHARES YIELDBOOST HOOD ETF,Robinhood Markets Inc.,HOOD,variable,long
 HPEL,Leverage Shares 2X Long HPE Daily ETF,Hewlett Packard Enterprise,HPE,2x,long
 HUTG,Leverage Shares 2X Long HUT Daily ETF,Hut 8 Corp,HUT,2x,long
+HYGD,MicroSectors -3x Short High Yield Corporate Bond (HYG) ETNs,iShares iBoxx High Yield Corporate Bond ETF,HYG,3x,short
+HYGU,MicroSectors 3x Long High Yield Corporate Bond (HYG) ETNs,iShares iBoxx $ High Yield Corporate Bond ETF,HYG,3x,long
 HYNX,T-REX 2X Long SKHY Daily Target ETF,SK hynix Inc.,SKHY,2x,long
 IBX,Tradr 2X Long IBM Daily ETF,IBM Corp,IBM,2x,long
 INDL,Direxion Daily MSCI India Bull 2X Shares,MSCI India,,2x,long
@@ -348,6 +354,8 @@ JETU,MAX Airlines 3X Leveraged ETNs,Prime Airlines Index - Benchmark TR Net,,3x,
 JNUG,Direxion Daily Junior Gold Miners Index Bull 2X Shares,NYSE Arca Gold Miners Index,GDM,2x,long
 JOBC,Corgi JOBY 2x Daily ETF,"Joby Aviation, Inc.",JOBY,2x,long
 JOBX,Tradr 2X Long JOBY Daily ETF,"Joby Aviation, Inc",JOBY,2x,long
+JPND,MicroSectors -3x Short Japan ETNs,iShares MSCI Japan ETF,EWJ,3x,short
+JPNU,MicroSectors 3x Long Japan ETNs,iShares MSCI Japan ETF,EWJ,3x,long
 JPUQF,JPMORGAN ETFS (IRELAND) ICAV US EQ PREMIUM INC ACT UCITS ETF USD DIS,,,2x,
 KBAB,KraneShares 2x Long BABA Daily ETF,Alibaba Group Holding Limited ADR,BABA,2x,long
 KBDU,KraneShares 2x Long BIDU Daily ETF,Baidu (ADR),BIDU,2x,long
@@ -367,12 +375,12 @@ KTUP,T-REX 2X Long KTOS Daily Target ETF,"Kratos Defense & Security Solutions, I
 LABD,Direxion Daily S&P Biotech Bear 3X Shares,S&P Biotechnology Select Industry,,3x,short
 LABU,Direxion Daily S&P Biotech Bull 3X Shares,S&P Biotechnology Select Industry,,3x,long
 LABX,Tradr 2X Long ALAB Daily ETF,Astera Labs stock,ALAB,2x,long
-LACG,Leverage Shares 2X Long LAC Daily ETF,Lithium Americas Corp,LAC,2x,long
 LASC,Corgi LASR 2x Daily ETF,"nLIGHT, Inc",LASR,2x,long
 LCDL,GraniteShares 2x Long LCID Daily ETF,Lucid Group Inc.,LCID,2x,long
 LEUX,Tradr 2X Long LEU Daily ETF,Centrus Energy Corp,LEU,2x,long
 LINT,Direxion Daily INTC Bull 2X ETF,Intel Corporation,INTC,2x,long
 LITC,Corgi LITE 2x Daily ETF,Lumentum Holdings Inc.,LITE,2x,long
+LITG,Leverage Shares 2x Long LITE Daily ETF,Lumentum Holdings Inc.,LITE,2x,long
 LITU,T-REX 2X Long LITE Daily Target ETF,Lumentum Holdings Inc,LITE,2x,long
 LITX,Tradr 2X Long LITE Daily ETF,Lumentum Holdings Inc,LITE,2x,long
 LITZ,Tradr 2X Short LITE Daily ETF,"Lumentum Holdings, Inc",LITE,2x,short
@@ -380,20 +388,26 @@ LLYX,Defiance Daily Target 2X Long LLY ETF,Eli Lilly and Company,LLY,2x,long
 LMNX,DEFIANCE DAILY TARGET 2X LONG LMND ETF,"Lemonade, Inc.",LMND,2x,long
 LMTL,Direxion Daily LMT Bull 2X ETF,Lockheed Martin Corporation,LMT,2x,long
 LNOK,Defiance Daily Target 2X Long NOK ETF,Nokia Oyj Sponsored ADR,NOK,2x,long
+LOFD,Direxion Daily SpaceX Bear 2X ETFs,Space Exploration Technologies Corp. Class A - USD - Benchmark Price Return,SPCX,2x,short
 LOFF,Direxion Daily SpaceX Bull 2X ETF,SpaceX (Space Exploration Technologies),SPCX,2x,long
+LQDD,MicroSectors -3x Short Investment Grade Corporate Bond (LQD) ETNs,iShares iBoxx Investment Grade Corporate Bond ETF,LQD,3x,short
+LQDU,MicroSectors 3x Long Investment Grade Corporate Bond (LQD) ETNs,iShares iBoxx Investment Grade Corporate Bond ETF,LQD,3x,long
 LRCC,Corgi LRCX 2x Daily ETF,Lam Research,LRCX,2x,long
 LRCU,Tradr 2X Long LRCX Daily ETF,Lam Research Corp.,LRCX,2x,long
 LRNX,Corgi LRN 2x Daily ETF,"Stride, Inc",LRN,2x,long
 LTL,ProShares Ultra Communication Services,S&P Communication Services Select Sector Index,,2x,long
 LULG,Leverage Shares 2X Long LULU Daily ETF,Lululemon Athletica Inc.,LULU,2x,long
 LUNL,Defiance Daily Target 2X Long LUNR ETF,"Intuitive Machines, Inc",LUNR,2x,long
+LWLX,Tradr 2X Long LWLG Daily ETF,"Lightwave Logic, Inc.",LWLG,2x,long
 MAAY,GraniteShares YieldBOOST MARA ETF,MARA Holdings (selling put options on 2x Long MARA Daily ETF),MARA,variable,long
 MAGX,Daily 2X Long Magnificent Seven ETF,Magnificent Seven Companies,,2x,long
 MATE,Man Active Trend Enhanced ETF,Mix of S&P 500 ETF and other assets,,2x,long
 MCHG,Leverage Shares 2X Long MCHP Daily ETF,Microchip Technology Inc,MCHP,2x,long
 MCHU,Tradr 2X Long MCHP Daily ETF,Microchip Technology,MCHP,2x,long
+MEGX,Corgi U.S. Mega-Cap Growth 2x Daily ETF,Vanguard Mega Cap Growth ETF,,2x,long
 METD,Direxion Daily META Bear 1X Shares,Meta Platforms Inc,META,1x,short
 METG,Leverage Shares 2X Long META Daily ETF,Meta Platforms,META,2x,long
+METQ,Tradr 2X Short META Daily ETF,"Meta Platforms, Inc.",META,2x,short
 METU,Direxion Daily META Bull 2X Shares,Meta Platforms Inc,META,2x,long
 METW,META WeeklyPay ETF,Meta Platforms Inc,META,1.2x,long
 MEXX,Direxion Daily MSCI Mexico Bull 3X Shares,MSCI Mexico IMI 25-50,,3x,long
@@ -402,6 +416,7 @@ MHX,Corgi MARA 2x Daily ETF,"MARA Holdings, Inc.",MARA,2x,long
 MIC,Corgi MU 2x Daily ETF,Micron Technology,MU,2x,long
 MIDU,Direxion Daily Mid Cap Bull 3X Shares,S&P Mid Cap 400,,3x,long
 MLPR,ETRACS Quarterly Pay 1.5x Leveraged Alerian MLP Index ETN,Alerian MLP Index,,1.5x,long
+MNGU,MicroSectors 3x Long MANGOS+ ex Private Companies ETNs,NYSE MaNGoS+ Index,,3x,long
 MNSX,Corgi MNST 2x Daily ETF,Monster Beverage,MNST,2x,long
 MPG,Leverage Shares 2X Long MP Daily ETF,MP Materials Corp,MP,2x,long
 MPL,Defiance Daily Target 2X Long MP ETF,MP Materials,MP,2x,long
@@ -409,6 +424,7 @@ MPWC,Corgi MPWR 2x Daily ETF,Monolithic Power Systems,MPWR,2x,long
 MPWX,Tradr 2X Long MPWR Daily ETF,"Monolithic Power Systems, Inc",MPWR,2x,long
 MQQQ,Tradr 2X Long Innovation 100 Monthly ETF,Invesco QQQ Trust,QQQ,2x,long
 MRAL,GraniteShares 2x Long MARA Daily ETF,MARA Holdings Inc.,MARA,2x,long
+MRAX,Tradr 2X Long MRAM Daily ETF,"Everspin Technologies, Inc.",MRAM,2x,long
 MRNX,Defiance Daily Target 2X Long MRNA ETF,"Moderna, Inc.",MRNA,2x,long
 MRVU,Direxion Daily MRVL Bull 2X ETF,"Marvell Technology, Inc.",MRVL,2x,long
 MRVX,Corgi MRVL 2x Daily ETF,"Marvell Technology, Inc.",MRVL,2x,long
@@ -431,6 +447,7 @@ MTSG,Leverage Shares 2X Long MTSI Daily ETF,MACOM Technology,MTSI,2x,long
 MTUL,ETRACS 2x Leveraged MSCI US Momentum Factor TR ETN,MSCI USA Momentum GR USD Index,,2x,long
 MTYY,GraniteShares YieldBOOST MSTR ETF,MicroStrategy Inc,MSTR,variable,long
 MUD,Direxion Daily MU Bear 1X Shares,"Micron Technology, Inc",MU,1x,short
+MUG,Leverage Shares 2X Long MU Daily ETF,"Micron Technology, Inc.",MU,2x,long
 MULL,GraniteShares 2x Long MU Daily ETF,Micron Technology Inc.,MU,2x,long
 MUU,Direxion Daily MU Bull 2X Shares,"Micron Technology, Inc.",MU,2x,long
 MUYY,GraniteShares YieldBoost MU ETF,"Micron Technology, Inc",MU,variable,long
@@ -439,6 +456,7 @@ MVLL,GraniteShares 2x Long MRVL Daily ETF,Marvell Technology Inc.,MRVL,2x,long
 MVPL,Miller Value Partners Leverage ETF,,,2x,
 MVRL,ETRACS Monthly Pay 1.5x Leveraged Mortgage REIT ETN,MVIS US Mortgage REITs Index,MVMORT,1.5x,long
 MVV,ProShares Ultra MidCap400,S&P MidCap 400,MID,2x,long
+MXLL,Leverage Shares 2x Long MXL Daily ETF,"MaxLinear, Inc.",MXL,2x,long
 MYY,ProShares Short MidCap400,S&P MidCap 400,MID,1x,short
 MZZ,ProShares UltraShort MidCap400,S&P MidCap 400,MID,2x,short
 NAIL,Direxion Daily Homebuilders & Supplies Bull 3X Shares,DJ US Select / Home Construction,,3x,long
@@ -485,6 +503,7 @@ NVTX,Tradr 2X Long NVTS Daily ETF,Navitas Semiconductor Corp,NVTS,2x,long
 NVYY,GraniteShares YieldBOOST NVDA ETF,NVIDIA Corp,NVDA,variable,long
 NXPG,Leverage Shares 2X Long NXPI Daily ETF,NXP Semiconductors,NXPI,2x,long
 NXPX,Tradr 2X Long NXPI Daily ETF,NXP Semiconductors,NXPI,2x,long
+OCNL,T-REX 2X Long DOCN Daily Target ETF,"DigitalOcean Holdings, Inc",DOCN,2x,long
 OILD,MicroSectors Oil & Gas Exploration & Production -3x Inverse Leveraged Exchange-Traded Note,WTI Crude Oil,CL,3x,short
 OILU,Bank of Montreal MicroSectors Oil & Gas Exploration & Production 3X Leveraged ETNs,WTI Crude Oil,CL,3x,long
 OKLC,Corgi OKLO 2x Daily ETF,Oklo Inc,OKLO,2x,long
@@ -505,8 +524,6 @@ ORCS,Direxion Daily ORCL Bear 1X ETF,Oracle Corporation,ORCL,1x,short
 ORCU,Direxion Daily ORCL Bull 2X ETF,Oracle Corporation,ORCL,2x,long
 ORCX,Defiance Daily Target 2X Long ORCL ETF,,ORCL,2x,long
 ORCZ,Tradr 2X Short ORCL Daily ETF,Oracle Corporation,ORCL,2x,short
-ORLG,Leverage Shares 2X Long ORLY Daily ETF,"O'Reilly Automotive, Inc.",ORLY,2x,long
-OSCG,Leverage Shares 2x Long OSCR Daily ETF,"Oscar Health, Inc.",OSCR,2x,long
 OSCX,Defiance Daily Target 2x Long OSCR ETF,"Oscar Health, Inc.",OSCR,2x,long
 OSSL,Defiance Daily Target 2X Long OSS ETF,One Stop Systems,OSS,2x,long
 OUSL,Defiance Daily Target 2x Long OUST ETF,"Ouster, Inc.",OUST,2x,long
@@ -517,6 +534,7 @@ PANG,Leverage Shares 2x Long PANW Daily ETF,Palo Alto Networks,PANW,2x,long
 PATX,Tradr 2X Long PATH Daily ETF,"UiPath, Inc",PATH,2x,long
 PBRG,Leverage Shares 2X Long PBR Daily ETF,Petroleo Brasileiro SA (ADR),PBR,2x,long
 PDDL,GraniteShares 2x Long PDD Daily ETF,PDD Holdings Inc.,PDD,2x,long
+PENU,T-REX 2X Long PENG Daily Target ETF,"Penguin Solutions, Inc",PENG,2x,long
 PFFL,ETRACS Monthly Pay 2xLeveraged Preferred Stock ETN,Solactive Preferred Stock ETF Index,SOLPRF,2x,long
 PILL,Direxion Daily Pharmaceutical & Medical Bull 3X Shares,S&P Pharmaceuticals Select Industry,,3x,long
 PLTA,ProShares Ultra PLTR,Palantir Technologies Inc,PLTR,2x,long
@@ -610,7 +628,6 @@ SARK,Tuttle Capital Short Innovation ETF,,,,short
 SBB,ProShares Short SmallCap600,S&P SmallCap 600,SML,1x,short
 SBIT,ProShares UltraShort Bitcoin ETF,Bitcoin,BTC,2x,short
 SBTU,T-REX 2X Long SBET Daily Target ETF,SharpLink Gaming,SBET,2x,long
-SBU,Leverage Shares 2X Long SBUX Daily ETF,Starbucks Corporation,SBUX,2x,long
 SCC,ProShares UltraShort Consumer Discretionary,S&P Consumer Discretionary Select Sector Index,SIXY,2x,short
 SCDL,ETRACS 2x Leveraged US Dividend Factor TR ETN,Dow Jones US Dividend 100 TR USD Index,DJUSDIVT,2x,long
 SCO,ProShares UltraShort Bloomberg Crude Oil,Bloomberg Commodity Balanced WTI Crude Oil Index,BCBCLI,2x,short
@@ -627,6 +644,7 @@ SHPU,Direxion Daily SHOP Bull 2X ETF,"Shopify, Inc",,2x,long
 SHRT,Gotham Short Strategies ETF,,,,short
 SIJ,ProShares UltraShort Industrials,S&P Industrials Select Sector Index,IXI,2x,short
 SIMX,Corgi SIMO 2x Daily ETF,Silicon Motion Technology,SIMO,2x,long
+SITX,Tradr 2X Long SITM Daily ETF,SiTime Corporation,SITM,2x,long
 SJB,ProShares Short High Yield,Markit iBoxx $ Liquid High Yield Index,IBOXHY,1x,short
 SK,Corgi SK hynix 2x Daily ETF,SK hynix Inc.,SKHY,2x,long
 SKDD,GraniteShares 2x Short SK Hynix Daily ETF,SK hynix Inc.,SKHY,2x,short
@@ -647,6 +665,8 @@ SMCX,Defiance Daily Target 2X Long SMCI ETF,"Super Micro Computer, Inc.",SMCI,2x
 SMCZ,Defiance Daily Target 2X Short SMCI ETF,,SMCI,2x,short
 SMDD,ProShares UltraPro Short MidCap400,S&P MidCap 400,MID,3x,short
 SMHB,ETRACS Monthly Pay 2xLeveraged US Small Cap High Dividend ETN Series B,Solactive US Small Cap High Dividend Index,SOLSMHD,2x,long
+SMHD,MicroSectors -3x Short Semiconductor ETNs,VanEck Semiconductor ETF,SMH,3x,short
+SMHU,MicroSectors 3x Long Semiconductor ETNs,VanEck Semiconductor ETF,SMH,3x,long
 SMN,ProShares UltraShort Materials,S&P Materials Select Sector Index,IXB,2x,short
 SMRX,Corgi SMR 2x Long Daily ETF,Nuscale Power Corp.,SMR,2x,long
 SMST,Defiance Daily Target 2X Short MSTR ETF,,MSTR,2x,short
@@ -695,7 +715,9 @@ SSG,ProShares UltraShort Semiconductors,Dow Jones U.S. SemiconductorsSM Index,DJ
 SSK,REX-Ospreyâ¢ SOL + Staking ETF,Solana,SOL,1x,long
 SSO,ProShares Ultra S&P500,S&P 500Â®,SPX,2x,long
 SSPC,Leverage Shares 2X Short SPCX Daily ETF,SpaceX (Space Exploration Technologies),SPCX,2x,short
+STLL,Leverage Shares 2x Long STRL Daily ETF,"Sterling Infrastructure, Inc.",STRL,2x,long
 STLU,"2x Stellar ETF by Volatility Shares,",Stellar Lumens,XLM,2x,long
+STMX,Leverage Shares 2X Long STM Daily ETF,STMicroelectronics N.V.,STM,2x,long
 STSM,Defiance Daily Target 2X Short TSM ETF,Taiwan Semiconductor Manufacturing Co.,TSM,2x,short
 STXL,Defiance Daily Target 2x Long STX ETF,Seagate Technology Holdings plc,STX,2x,long
 STXU,Leverage Shares 2X Long STX Daily ETF,Seagate Technology Holdings plc,STX,2x,long
@@ -707,6 +729,7 @@ SZK,ProShares UltraShort Consumer Staples,S&P Consumer Staples Select Sector Ind
 TAIL,Cambria Tail Risk ETF,,,,
 TAJX,Corgi India 2x Daily ETF,,,2x,long
 TARK,Tradr 2X Long Innovation ETF,ARK Innovation ETF,ARKK,2x,long
+TAWN,MicroSectors 3x Long Taiwan ETNs,iShares MSCI Taiwan ETF,EWT,3x,long
 TBF,ProShares Short 20+ Year Treasury,ICE U.S. Treasury 20+ Year Bond Index,IDCOT20T,1x,short
 TBT,ProShares UltraShort 20+ Year Treasury,ICE U.S. Treasury 20+ Year Bond Index,IDCOT20T,2x,short
 TBX,ProShares Short 7-10 Year Treasury,ICE U.S. Treasury 7-10 Year Bond Index,IDCOT7TR,1x,short
@@ -730,6 +753,7 @@ TMV,Direxion Daily 20+ Year Treasury Bear 3X Shares,ICE U.S. Treasury 20+ Year B
 TMYY,GraniteShares YieldBoost TSM ETF,Taiwan Semiconductor Manufacturing Company,TSM,variable,long
 TNA,Direxion Daily Small Cap Bull 3X Shares,Russell 2000,,3x,long
 TOPW,Roundhill WeeklyPay Universe ETF,Solactive Roundhill WeeklyPay Universe Index,,variable,long
+TPEI,MicroSectors -3x Short Taiwan ETNs,iShares MSCI Taiwan ETF,EWT,3x,short
 TPLX,Corgi TPL 2x Daily ETF,Texas Pacific Land Corporation,TPL,2x,long
 TPOR,Direxion Daily Transportation Bull 3X Shares,S&P Transportation Select Industry FMC Capped Index,,3x,long
 TQQQ,ProShares UltraPro QQQ,Nasdaq-100 Index,QQQ,3x,long
@@ -790,6 +814,7 @@ UGLD,Direxion Daily Gold Bull 2X ETF,SPDR GOLD SHARES SWAP,,2x,long
 UJB,ProShares Ultra High Yield,Markit iBoxx $ Liquid High Yield Index,IBOXHY,2x,long
 ULE,ProShares Ultra Euro,Euro/US Dollar,EURO,2x,long
 UMAL,Defiance Daily Target 2X Long UMAC ETF,"Unusual Machines, Inc",UMAC,2x,long
+UMCU,Tradr 2X Long UMC Daily ETF,United Microelectronics Corporation,UMC,2x,long
 UMCX,Corgi UMC 2x Daily ETF,United Microelectronics Corporation,UMC,2x,long
 UMDD,ProShares UltraPro MidCap400,S&P MidCap 400,MID,3x,long
 UN,Corgi UNH 2x Daily ETF,UnitedHealth Group,UNH,2x,long
@@ -801,7 +826,6 @@ UPAL,ProShares Ultra Palladium K-1 Free ETF,Palladium,,2x,long
 UPLT,ProShares Ultra Platinum K-1 Free ETF,Platinum,,2x,long
 UPRO,ProShares UltraPro S&P500,S&P 500Â®,SPX,3x,long
 UPSC,Corgi UPST 2x Daily ETF,"Upstart Holdings, Inc.",UPST,2x,long
-UPSG,Leverage Shares 2X Long UPS Daily ETF,"United Parcel Service, Inc.",UPS,2x,long
 UPSX,Tradr 2X Long UPST Daily ETF,Upstart Holdings Inc.,UPST,2x,long
 UPV,ProShares Ultra FTSE Europe,FTSE Developed Europe All Cap Index,ACDER,2x,long
 UPW,ProShares Ultra Utilities,S&P Utilities Select Sector Index,IXU,2x,long
@@ -813,8 +837,12 @@ USAX,Tradr 2X Long USAR Daily ETF,USA Rare Earth Inc,USAR,2x,long
 USD,ProShares Ultra Semiconductors,Dow Jones U.S. SemiconductorsSM Index,DJUSSC,2x,long
 USDU,WisdomTree Bloomberg U.S. Dollar Bullish Fund,,,,long
 USGG,Leverage Shares 2X Long USAR Daily ETF,USA Rare Earth Inc,USAR,2x,long
+USGX,Corgi U.S. Growth 2x Daily ETF,Vanguard Growth ETF,,2x,long
 USLV,Direxion Daily Silver Bull 2X ETF,ISHARES SILVER TRUST SWAP,,2x,long
+USLX,Corgi U.S. Large-Cap 2x Daily ETF,Vanguard S&P 500 ETF,,2x,long
 USML,ETRACS 2x Leveraged MSCI US Minimum Volatility Factor TR ETN,MSCI USA Minimum Volatility GR USD Index,,2x,long
+USMX,Corgi U.S. Mid-Cap 2x Daily ETF,Vanguard Mid-Cap ETF,,2x,long
+USSX,Corgi U.S. Small-Cap 2x Daily ETF,Vanguard Small-Cap ETF,,2x,long
 UST,ProShares Ultra 7-10 Year Treasury,ICE U.S. Treasury 7-10 Year Bond Index,IDCOT7TR,2x,long
 USX,Corgi Total U.S. Market 2x Daily ETF,,,2x,long
 UTSL,Direxion Daily Utilities Bull 3X Shares,S&P Utilities Select Sector,,3x,long
