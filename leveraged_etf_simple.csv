@@ -59,6 +59,7 @@ ARMW,Roundhill ARM WeeklyPay ETF,Arm Holdings plc,ARM,1.2x,long
 ASMG,Leverage Shares 2X Long ASML Daily ETF,,,2x,long
 ASMU,Direxion Daily ASML Bull 2X ETF,ASML Holding NV,ASML,2x,long
 ASMZ,Corgi ASML 2x Daily ETF,ASML Holding,ASML,2x,long
+ASSX,T-REX 2X Long ASST Daily Target ETF,"Strive, Inc",ASST,2x,long
 ASTG,Leverage Shares 2X Long ASTS Daily ETF,AST SpaceMobile Inc,ASTS,2x,long
 ASTN,Defiance Daily Target 2X Short ASTS ETF,AST SpaceMobile Inc,ASTS,2x,short
 ASTT,Corgi ASTS 2x Daily ETF,AST SpaceMobile Inc,ASTS,2x,long
@@ -357,6 +358,7 @@ JOBX,Tradr 2X Long JOBY Daily ETF,"Joby Aviation, Inc",JOBY,2x,long
 JPND,MicroSectors -3x Short Japan ETNs,iShares MSCI Japan ETF,EWJ,3x,short
 JPNU,MicroSectors 3x Long Japan ETNs,iShares MSCI Japan ETF,EWJ,3x,long
 JPUQF,JPMORGAN ETFS (IRELAND) ICAV US EQ PREMIUM INC ACT UCITS ETF USD DIS,,,2x,
+KATT,T-REX 2X Long PURR Daily Target ETF,Hyperliquid Strategies Inc,PURR,2x,long
 KBAB,KraneShares 2x Long BABA Daily ETF,Alibaba Group Holding Limited ADR,BABA,2x,long
 KBDU,KraneShares 2x Long BIDU Daily ETF,Baidu (ADR),BIDU,2x,long
 KEEX,Defiance Daily Target 2X Long KEEL ETF,Keel Infrastructure Corp,KEEL,2x,long
@@ -416,7 +418,9 @@ MHX,Corgi MARA 2x Daily ETF,"MARA Holdings, Inc.",MARA,2x,long
 MIC,Corgi MU 2x Daily ETF,Micron Technology,MU,2x,long
 MIDU,Direxion Daily Mid Cap Bull 3X Shares,S&P Mid Cap 400,,3x,long
 MLPR,ETRACS Quarterly Pay 1.5x Leveraged Alerian MLP Index ETN,Alerian MLP Index,,1.5x,long
+MNGB,Yorkville America 2X Inverse MANGOS Plus Daily Target ETF,Yorkville America MANGOS Plus Index ETF,FRUT,2x,short
 MNGU,MicroSectors 3x Long MANGOS+ ex Private Companies ETNs,NYSE MaNGoS+ Index,,3x,long
+MNGZ,Yorkville America 2X Long MANGOS Plus Daily Target ETF,,FRUT,2x,long
 MNSX,Corgi MNST 2x Daily ETF,Monster Beverage,MNST,2x,long
 MPG,Leverage Shares 2X Long MP Daily ETF,MP Materials Corp,MP,2x,long
 MPL,Defiance Daily Target 2X Long MP ETF,MP Materials,MP,2x,long
@@ -438,7 +442,7 @@ MSIX,Corgi MSI 2x Daily ETF,Motorola Solutions,MSI,2x,long
 MSOX,AdvisorShares MSOS Daily Leveraged ETF,,,2x,
 MST,Defiance Leveraged Long + Income MSTR ETF,MicroStrategy,MSTR,1.5x,long
 MSTC,Corgi MSTR 2x Daily ETF,MicroStrategy,MSTR,2x,long
-MSTP,GraniteShares 2x Long Master ETF,MicroStrategy Inc,,2x,long
+MSTP,GraniteShares 2x Long MSTR ETF,MicroStrategy Inc,MSTR,2x,long
 MSTU,T-REX 2X Long MSTR Daily Target ETF,MicroStrategy Inc,MSTR,2x,long
 MSTW,Roundhill MSTR WeeklyPay ETF,MicroStrategy,,1.2x,long
 MSTX,Daily Target 2X Long MSTR ETF,MicroStrategy,MSTR,2x,long
@@ -652,6 +656,7 @@ SKF,ProShares UltraShort Financials,S&P Financial Select Sector Index,SIXM,2x,sh
 SKHA,Tradr 2X Long SK hynix Daily ETF,SK hynix Inc,SKHY,2x,long
 SKHL,Direxion Daily SK Hynix Bull 2X Shares,SK hynix Inc,SKHY,2x,long
 SKHN,Tradr 2X Short SK hynix Daily ETF,SK hynix Inc,SKHY,2x,short
+SKHQ,Leverage Shares 2X Short Sk Hynix Daily ETF,SK hynix Inc,SKHY,2x,short
 SKHU,ProShares Ultra SK hynix,SK hynix Inc,SKHY,2x,long
 SKHX,Leverage Shares 2X Long SK Hynix Daily ETF,SK hynix Inc.,SKHY,2x,long
 SKHZ,Leverage Shares 1X Short SK Hynix Daily ETF,SK hynix Inc.,SKHY,1x,short
@@ -904,10 +909,14 @@ XJUL,FT Vest U.S. Equity Enhance & Moderate Buffer ETF - July,,,2x,
 XJUN,FT Vest U.S. Equity Enhance & Moderate Buffer ETF - June,,,2x,
 XKRE,Corgi U.S. Regional Banks 2x Daily ETF,,,2x,long
 XLBX,Corgi U.S. Materials 2x Daily ETF,,,2x,long
+XLCD,MicroSectors -3x Short Communication Services (XLC) ETNs,,XLC,3x,short
+XLCU,MicroSectors 3x Long Communication Services (XLC) ETNs,Communication Services Select Sector SPDR Fund,XLC,3x,long
 XLEX,Corgi U.S. Energy 2x Daily ETF,,,2x,long
 XLFX,Corgi U.S. Financials 2x Daily ETF,,,2x,long
 XLIX,Corgi U.S. Industrials 2x Daily ETF,,,2x,long
 XLKX,Corgi U.S. Technology 2x Daily ETF,,,2x,long
+XLPD,MicroSectors -3x Short Consumer Staples (XLP) ETNs,Consumer Staples Select Sector SPDR Fund,XLP,3x,short
+XLPU,MicroSectors 3x Long Consumer Staples (XLP) ETNs,Consumer Staples Select Sector SPDR Fund,XLP,3x,long
 XLPX,Corgi U.S. Consumer Staples 2x Daily ETF,,,2x,long
 XLUX,Corgi U.S. Utilities 2x Daily ETF,,,2x,long
 XLVX,Corgi U.S. Healthcare 2x Daily ETF,,,2x,long
