@@ -1,9 +1,9 @@
 name: Scrape Leveraged ETF Data
 
 on:
-  # 每月第一天 UTC 时间 00:00 运行 (北京时间 08:00)
+  # 每周日 UTC 时间 00:00 运行 (北京时间 08:00)
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "0 0 * * 0"
 
   # 也可以手动触发
   workflow_dispatch:
